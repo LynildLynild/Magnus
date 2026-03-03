@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Dagens Undervisning</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #1f2937, #111827);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .topbar {
+            background-color: #0b1220;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        }
+
+        .login-info {
+            font-size: 20px;
+        }
+
+        .login-info span {
+            color: #facc15;
+            font-weight: bold;
+        }
+
+        .login-btn {
+            text-decoration: none;
+            background-color: #22d3ee;
+            color: #0f172a;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: transform 0.1s, background-color 0.2s;
+        }
+
+        .login-btn:hover {
+            background-color: #38bdf8;
+            transform: scale(1.05);
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .dato {
+            font-size: 24px;
+            color: #38bdf8;
+            margin-top: 10px;
+        }
+
+        .starttid {
+            font-size: 28px;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #facc15;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 40px 80px;
+        }
+
+        .fag {
+            background-color: #1e293b;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+            transition: transform 0.2s;
+        }
+
+        .fag:hover {
+            transform: scale(1.02);
+        }
+
+        .fag h2 {
+            font-size: 36px;
+            margin-top: 0;
+            color: #22d3ee;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: #f8fafc;
+            background-color: #334155;
+            padding: 12px 18px;
+            border-radius: 8px;
+            display: inline-block;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+
+        a:hover {
+            background-color: #38bdf8;
+            color: #0f172a;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="topbar">
+    <div class="login-info">
+        🔐 Brugernavn: <span>515961</span>
+    </div>
+    <a class="login-btn" href="https://skoleelev.ai/elev-login" target="_blank">
+        Gå til Login
+    </a>
+</div>
+
+<header>
+    <h1>📚 Dagens Undervisning</h1>
+    <div class="dato">Tirsdag d. 3. marts</div>
+    <div class="starttid">Starter kl. 14.00</div>
+</header>
+
+<div class="container">
+
+    <div class="fag">
+        <h2>🇫🇷 Fransk (2 moduler)</h2>
+        <ul>
+            <li>
+                <a href="https://skoleelev.ai/student/learning/topic/f1963bb4-2e65-40dc-9cd8-b894ead695b8" target="_blank">
+                    Premier mots – Grundlæggende ordforråd
+                </a>
+            </li>
+            <li>
+                <a href="https://skoleelev.ai/student/learning/topic/6ac39984-c91f-4c4a-a059-7e53079487b9" target="_blank">
+                    Se présenter – At præsentere sig selv
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="fag">
+        <h2>🏛️ Samfundsfag – Folketingsvalg</h2>
+        <ul>
+            <li>
+                <a href="https://www.dr.dk/skole/samfundsfag/udskoling/explainer-alt-du-skal-vide-om-folketingsvalget" target="_blank">
+                    Forstå folketingsvalget
+                </a>
+            </li>
+            <li>
+                <a href="https://www.dr.dk/skole/samfundsfag/udskoling/explainer-hvad-er-symbolpolitik" target="_blank">
+                    Hvad er symbolpolitik?
+                </a>
+            </li>
+            <li>
+                <a href="https://www.dr.dk/skole/samfundsfag/udskoling/explainer-hvad-betyder-bureaukrati" target="_blank">
+                    Hvad betyder bureaukrati?
+                </a>
+            </li>
+            <li>
+                <a href="https://www.dr.dk/feature/partier/?parti=Socialdemokratiet" target="_blank">
+                    Oversigt over partierne
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="fag">
+        <h2>📝 Fagvurderinger</h2>
+        <ul>
+            <li><a href="https://skoleelev.ai/student/assessment/subject/00462c67-c1be-40cd-a15d-2cdb9ed61e37" target="_blank">Biologi</a></li>
+            <li><a href="https://skoleelev.ai/student/assessment/subject/a241a82b-6653-4bae-98a5-c4902f15a60e" target="_blank">Fysik/Kemi</a></li>
+            <li><a href="https://skoleelev.ai/student/assessment/subject/e1dff649-4960-4f35-be99-f454aefed1fe" target="_blank">Geografi</a></li>
+            <li><a href="https://skoleelev.ai/student/assessment/subject/016be751-add0-4b30-b5aa-ba5f3936c47e" target="_blank">Historie</a></li>
+            <li><a href="https://skoleelev.ai/student/assessment/subject/6767ca90-c8c8-40e0-8df7-7e4396f48fd6" target="_blank">Natur/Teknologi</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    Klar til en god undervisningsdag 💪
+</footer>
+
+</body>
+</html>
